@@ -1,0 +1,61 @@
+.myDIV div{
+    width:500px;
+    height:500px;
+    position:absolute;
+    opacity:0.5;
+    color: whitesmoke;
+    font-size: x-large;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h5,p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+ .bts img{
+    width: 280px;
+    height: 200px;
+
+}
+.city img{
+    width: 380px;
+    height: 200px;
+
+}
+.hyp{
+    font-size: 1.1em;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    animation: animate 
+        1.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+.abc{
+    background-color:black;
+    color:white;
+}
+table{
+    border:1px solid;
+    border-color: black;
+    
+}
+td{
+    color: white;
+}
